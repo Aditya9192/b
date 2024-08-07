@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>RentKaro</title>
+  <meta name="description" content="Case study page of Project" />
+
+  <link rel="stylesheet" href="css/style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__content">
+      <div class="header__logo-container">
+        <div class="header__logo-img-cont">
+          <img src="./assets/png/logorent.png" alt="Ram Maheshwari Logo Image" class="header__logo-img" />
+        </div>
+        <span class="header__logo-sub">RentKaro</span>
+      </div>
+      <div class="header__main">
+        <ul class="header__links">
+          <li class="header__link-wrapper">
+            <a href="./index.html" class="header__link"> Home </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./index.html#about" class="header__link">About </a>
+          </li>
+          
+          <li class="header__link-wrapper">
+            <a href="./index.html#contact" class="header__link"> Contact </a>
+          </li>
+        </ul>
+        <div class="header__main-ham-menu-cont">
+          <img src="./assets/svg/ham-menu.svg" alt="hamburger menu" class="header__main-ham-menu" />
+          <img src="./assets/svg/ham-menu-close.svg" alt="hamburger menu close"
+            class="header__main-ham-menu-close d-none" />
+        </div>
+      </div>
+    </div>
+    <div class="header__sm-menu">
+      <div class="header__sm-menu-content">
+        <ul class="header__sm-menu-links">
+          <li class="header__sm-menu-link">
+            <a href="./index.html"> Home </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./index.html#about"> About </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./index.html#projects">Scooty</a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./index.html#contact"> Contact </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <section class="project-cs-hero">
+    <div class="project-cs-hero__content">
+      <h1 class="heading-primary">Scooty</h1>
+      <div class="project-cs-hero__info">
+        <p class="text-primary">
+          Discover the perfect combination of convenience, comfort, and style with our Scooty. Ideal for daily commutes,
+          quick errands, and leisurely rides, the Scooty is designed to meet your needs while providing a smooth and
+          enjoyable riding experience.
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="project-details">
+    <div class="main-container">
+      <div class="project-details__content">
+        <div class="project-details__showcase-img-cont">
+          <img src="./assets/png/activa-white.png" alt="Project Image" class="project-details__showcase-img" />
+        </div>
+        <div class="project-details__content-main">
+          <div class="project-details__desc">
+            <h3 class="project-details__content-title">Scooty Overview</h3>
+            <p class="project-details__desc-para">### Scooty Overview
+
+              <strong>Stylish Design:</strong> The Scooty's sleek and modern design ensures you turn heads wherever you
+              go. Its
+              compact size and attractive aesthetics make it perfect for urban environments.
+
+              <br><strong>Efficient Performance:</strong> Equipped with a fuel-efficient engine, the Scooty offers
+              smooth acceleration
+              and reliable performance, making it ideal for city commutes and quick errands.
+
+              <br><strong>Comfortable Ride:</strong> Despite its compact build, the Scooty boasts a comfortable and
+              spacious seat, with
+              advanced suspension systems that provide a smooth ride on various road conditions.
+
+              <br><strong>Safety Features:</strong> The Scooty is equipped with essential safety features, including
+              anti-lock braking
+              system (ABS), bright LED headlights, and sturdy tires, ensuring your safety on every ride.
+
+              <br><strong>Convenient and Versatile:</strong> Whether you need a vehicle for daily commutes or a quick
+              run to the store,
+              the Scooty adapts effortlessly. Its lightweight design and easy maneuverability make parking and
+              navigating through traffic a breeze.
+            </p>
+          </div>
+          <div class="project-details__tools-used">
+            <h3 class="project-details__content-title">RENT</h3>
+            <h1>
+              <p>Per Day : 2000/-</p>
+              <p>Per Hour : 200/-</p>
+            </h1>
+          </div>
+          <div class="project-details__links">
+
+            <button id="bookButton" class="btn btn--med btn--theme project-details__links-btn">Book</button>
+
+            <div id="popupForm" class="popup-form">
+              <div class="popup-content">
+                <span class="close">&times;</span>
+                <h2>Book Your Ride</h2>
+                <form>
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="name" required>
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required>
+                  <label for="date">Date:</label>
+                  <input type="date" id="date" name="date" required>
+                  <button type="submit">Submit</button>
+                </form>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <footer class="main-footer">
+    <div class="main-container">
+      <div class="main-footer__upper">
+        <div class="main-footer__row main-footer__row-1">
+          <h2 class="heading heading-sm main-footer__heading-sm">
+            <span>Social</span>
+          </h2>
+          <div class="main-footer__social-cont">
+            <a target="_blank" rel="noreferrer" href="#">
+              <img class="main-footer__icon" src="./assets/png/linkedin-ico.png" alt="icon" />
+            </a>
+            <a target="_blank" rel="noreferrer" href="#">
+              <img class="main-footer__icon" src="./assets/png/github-ico.png" alt="icon" />
+            </a>
+            <a target="_blank" rel="noreferrer" href="#">
+              <img class="main-footer__icon" src="./assets/png/twitter-ico.png" alt="icon" />
+            </a>
+            <a target="_blank" rel="noreferrer" href="#">
+              <img class="main-footer__icon" src="./assets/png/yt-ico.png" alt="icon" />
+            </a>
+            <a target="_blank" rel="noreferrer" href="#">
+              <img class="main-footer__icon main-footer__icon--mr-none" src="./assets/png/insta-ico.png" alt="icon" />
+            </a>
+          </div>
+        </div>
+        <div class="main-footer__row main-footer__row-2">
+          <h4 class="heading heading-sm text-lt">AUTO RENTALS</h4>
+          <p class="main-footer__short-desc">
+            Drive Your Dream with Our Affordable Car Rentals!
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="./index.js"></script>
+</body>
+
+</html>
